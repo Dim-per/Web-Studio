@@ -68,4 +68,60 @@ h1 {
   padding-bottom:  16px;
   padding-left: 8px;
   padding-right: 8px;
+  display: flex;
+}
+ ul {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  list-style: none;
+}
+.one-header-li {
+  width: 130px;
+}
+
+.hero-content  {
+ display: flex;
+  color: #ffffff;
+ margin-left: 380px;
+ flex-direction: column;
+align-items: center;
+
+height: 150px;
+margin-top: 150px
+}
+.section-img-div {
+ 
+margin-left: 200px;
+margin-bottom: 100px;
+
+}
+.section-img-h2 {
+  display: flex;
+  justify-content: center;
+  
+
+}
+.div-footer {
+  display: flex;
+  flex-direction: column;
+}
+.section-it-div {
+ display: flex;
+
+justify-content: center;
+align-items: center;
+width: 1170px;
+}
+.item {
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+width: 1170px;
+}
+.section-it-p {
+   
+   justify-content: center;
+   align-items: center;
 }
