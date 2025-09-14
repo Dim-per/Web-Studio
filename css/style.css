@@ -85,11 +85,11 @@ h1 {
 .hero-content  {
  display: flex;
   color: #ffffff;
- margin-left: 380px;
+ justify-content: center;
  flex-direction: column;
 align-items: center;
 
-height: 150px;
+width: 1200px;
 margin-top: 150px
 }
 .section-img-div {
@@ -117,10 +117,13 @@ width: 1170px;
 }
 .item {
   display: flex;
- 
   justify-content: center;
   align-items: center;
 width: 1170px;
+gap: 20px;
+}
+.item-div {
+  box-shadow:  3px 2px 12px 1px
 }
 .section-it-p {
     
@@ -136,26 +139,64 @@ width: 1170px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
    flex-basis: calc((100% - 20px) / 3);
-   
+}
+.section-one-div {
+   box-shadow:  3px 2px 12px 1px
 }
 .section-one-div:nth-child(1) {
   display: flex;
   justify-content: center;
   flex-direction: column;
   gap: 10px;
-  order:-1 ;
+  order:  1;
+}
+.section-one-div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  order: 5;
+}
+ .section-one-div:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  order: 9;
 }
 .section-one-div:nth-child(4) {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  order: -1;
+  order: 1;
 }
- .section-one-div:nth-child(7) {
+.section-one-div:nth-child(5) {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  order: -1;
+  order: 5;
+}
+.section-one-div:nth-child(6) {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  order: 9;
+}
+.section-one-div:nth-child(7) {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  order: 1;
+}
+.section-one-div:nth-child(8) {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  order: 5;
+}
+.section-one-div:nth-child(9) {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  order: 9;
 }
 .section-one-div {
   margin: 50px;
@@ -177,19 +218,19 @@ width: 1170px;
    margin-left: 80px;
 }
 .section-main-li:nth-child(1)::before {
- background-image: url(/img/antenna\ 1.jpg);
+ background-image: url(/img/antenna1.jpg);
   
 }
 .section-main-li:nth-child(2)::before {
-  background-image: url(/img/clock\ 1.jpg);
+  background-image: url(/img/clock1.jpg);
 }
 
 .section-main-li:nth-child(3)::before {
-  background-image: url(/img/diagram\ 1.jpg);
+  background-image: url(/img/diagram1.jpg);
 }
 
 .section-main-li:nth-child(4)::before {
-  background-image: url(/img/astronaut\ 1.jpg);
+  background-image: url(/img/astronaut1.jpg);
 }
 
 
