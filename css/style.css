@@ -227,19 +227,19 @@ gap: 20px;
    margin-left: 80px;
 }
 .section-main-li:nth-child(1)::before {
- background-image: url(/img/antenna1.jpg);
+ background-image: url(../img/antenna1.jpg);
   
 }
 .section-main-li:nth-child(2)::before {
-  background-image: url(/img/clock1.jpg);
+  background-image: url(../img/clock1.jpg);
 }
 
 .section-main-li:nth-child(3)::before {
-  background-image: url(/img/diagram1.jpg);
+  background-image: url(../img/diagram1.jpg);
 }
 
 .section-main-li:nth-child(4)::before {
-  background-image: url(/img/astronaut1.jpg);
+  background-image: url(../img/astronaut1.jpg);
 }
 
 
