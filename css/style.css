@@ -55,7 +55,7 @@ footer {
 }
 .hero {
   color: var(--color-blue);
-  background-image: url(/img/img16.jpg);
+  background-image: url(../img/img16.jpg);
   height: 600px;
 }
 .button-hero {
