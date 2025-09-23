@@ -55,7 +55,8 @@ footer {
 }
 .hero {
   color: var(--color-blue);
-  background-image: url(../img/img16.jpg);
+  background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+  url(../img/img16.jpg);
   height: 600px;
 }
 .button-hero {
