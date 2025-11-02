@@ -82,14 +82,75 @@ h1 {
 }
  ul {
   display: flex;
-  justify-content: center;
-  width: 95%;
+ 
   list-style: none;
+  align-items: center;
+margin-top: 30px;
 }
+.svg-header {
+  width: 18px;
+  height: 18px;
+   
+}
+.svg-header:hover {
+fill: var(--color-blue);
+}
+
 .header-li {
-  width: 130px;
-  
+ display: flex;
+  margin-left: 20px;
+
+  height: 20px;  
+
 }
+.envelope {
+  display: flex;
+  margin-right: 20px;
+  
+   
+   fill:#757575 ;
+}
+.envelope:hover {
+fill: var(--color-blue);
+}
+.header-twitter{
+display: flex;
+ 
+  fill:#757575 ;
+}
+.header-twitter:hover{
+  fill: var(--color-blue);
+}
+.fone {
+  margin-left: 5px;
+    color: #757575;
+}
+.twiter {
+  
+  
+  width: 18px;
+  height: 18px;
+}
+
+
+.div-header{
+ height: 1px;
+ margin-top: 40px;
+  width: 1200px;
+  display: flex;
+  justify-content: end;
+ align-items: center;
+}
+a {
+  color: var(--text-color);
+  text-decoration: none;
+ font-size: 16px;
+font-weight: bold;
+}
+a:hover {
+  color: var(--color-blue);
+}
+
 
 .hero-content  {
  display: flex;
@@ -243,8 +304,110 @@ gap: 20px;
   background-image: url(../img/astronaut1.jpg);
 }
 
+.svg-comand {
+  height: 22px;
+  width: 22px;
+}
+.cirkle {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+ fill: #afb1b8;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.cirkle:hover {
+  fill: var(--header-bg-color);
+  background-color: var(--button-bg-color);
+}
+.comand-circle {
+    display: flex;
+}
+.h2-client {
+font-size: 26px;
+}
+.client-div {
 
-
+  margin: 0 auto;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.client-svg {
+display: flex;
+  justify-content: center;
+  
 
  
 
+} 
+.client-colum {
+  padding: 80px;
+    margin: 0 auto;
+    width: 1200px;
+   
+}
+.svg-clent {
+  margin: 5px;
+height: 80px;
+ border: solid 2px #afb1b8;
+ fill: #afb1b8;
+
+border-radius: 5px;
+
+}
+.svg-clent:hover {
+  fill: #2196F3;
+  border: 2px solid #2196F3 ;
+}
+.svg-footer-img {
+
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  fill: #ffffff;
+}
+.footer-svg {
+    
+   width: 250px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin-left: 40px;
+}
+
+.svg-back {
+  background-color: #ffffff11;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin: 7px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.svg-back:hover {
+  background-color:#2196F3 ;
+}
+.footer-p-svg {
+ margin-left: 10px;
+  height: 10px;
+}
+.div-footer-svg {
+ 
+ 
+
+  display: flex;
+}
+.footer-one-p {
+  color:#ffffff77 ;
+  margin: 6px;
+}
+.footer-one-h4 {
+  margin: 4px;
+}
