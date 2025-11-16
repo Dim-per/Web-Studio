@@ -27,9 +27,9 @@
         </h1>
         <nav class="one-header-nav">
           <ul class="one-header-ul">
-            <li class="header-li"><a href="#">студія</a></li>
-            <li class="header-li"><a href="./portfol.html">портфоліо</a></li>
-            <li class="header-li"><a href="#">контакти</a></li>
+            <li class="header-li"><a href="#" class="header-a">студія</a></li>
+            <li class="header-li"><a href="./portfol.html" class="header-a">портфоліо</a></li>
+            <li class="header-li"><a href="#" class="header-a">контакти</a></li>
           </ul>
         </nav>
         <div class="div-header">
@@ -54,10 +54,63 @@
         <div class="container">
           <div class="hero-content">
             <h2 class="hero-h2">Ефективні рішення для вашого бізнесу</h2>
-            <button class="button-hero">
-              <h3 class="hero-h3">замовити послугу</h3>
+            <button type="button" class="button-hero btn-open" data-modal-open>
+           <h3 class="hero-h3 " >замовити послугу</h3>
             </button>
-          </div>
+  <div  class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button type="button" class="close-btn" data-modal-close>✖</button>
+    <p class="glas-p">Залиште свої дані, ми вам передзвонимо</p>
+    <div class="svg-glas">
+      <p class="p-input">Ім'я</p>
+      <div class="border-svg">
+        <svg class="svg-input">
+          <use href="./svg/symbol-defs2.svg#icon-vector"></use>
+        </svg>
+        <input type="text" class="input-glas">
+      </div>
+    </div>
+     <div class="svg-glas">
+      <p class="p-input">Телефон</p>
+      <div class="border-svg">
+        <svg class="svg-input">
+          <use href="./svg/symbol-defs2.svg#icon-vector1"></use>
+        </svg>
+        <input type="text" class="input-glas">
+      </div>
+    </div>
+     <div class="svg-glas">
+      <p class="p-input">Пошта</p>
+      <div class="border-svg">
+        <svg class="svg-input">
+          <use href="./svg/symbol-defs2.svg#icon-vector2"></use>
+        </svg>
+        <input type="text" class="input-glas">
+      </div>
+    </div>
+    <div>
+      <p class="p-coment">Коментар</p>
+      <div class="order-glas">
+         <input type="Введіть текст" class="input-coment" placeholder="Введіть текст">
+      </div>
+    </div>
+    <div class="okey">
+      <label class="check">
+  <input type="checkbox" class="check-box">
+   
+</label>
+<div class="text-check">
+  <p class="p-check">Погоджуюся з розсилкою та приймаю</p>
+  <li class="li-check"><a href="#" class="a-check">  Умови договору</a></li>
+</div>
+    </div>
+    <div class="button-glas-div">
+    <button class="button-glas">Відправити</button>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
         </div>
       </section>
       <section class="section-main">
@@ -335,7 +388,26 @@
          
         
         </div>
+        <div>
+          <div class="input-div-footer">
+            <p class="p-footer-input">Підпишіться на розсилку</p>
+            <input type="text" class="input-futr" placeholder="E-mail">
+          </div>
+         
+        </div>
+         <div class="button-footer">
+           <button class="button-svg">
+            <p class="p-svg-button">
+Підписатися</p>
+            <svg class="svg-button">
+              <use href="./svg/symbol-defs2.svg#icon-iconsend2">
+                
+              </use>
+            </svg>
+           </button>
+          </div>
       </div>
     </footer>
+    <script src="./modal.js"></script>
   </body>
 </html>

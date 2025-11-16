@@ -124,6 +124,7 @@ display: flex;
 .fone {
   margin-left: 5px;
     color: #757575;
+    text-decoration: none;
 }
 .twiter {
   
@@ -141,7 +142,7 @@ display: flex;
   justify-content: end;
  align-items: center;
 }
-a {
+.header-a {
   color: var(--text-color);
   text-decoration: none;
  font-size: 16px;
@@ -447,3 +448,206 @@ border-radius: 5px;
 .footer-one-h4 {
   margin: 4px;
 }
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+   display: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 500px;
+  min-height:600px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  transform: translate(-50%, -50%);
+   border-radius: 7px;
+  
+}
+.close-btn {
+ background-color: white;
+ border: white;
+ color: #212121;
+  top: 10px;
+  margin-left:450px;
+  cursor: pointer;
+  
+ 
+}
+.close-btn:hover {
+  background-color: #ffffff;
+ 
+ 
+}
+.glas-p {
+  font-size: 20px;
+font-weight: bold;
+text-align: center;
+}
+.svg-glas {
+ 
+}
+.svg-input {
+  height: 18px;
+  width: 18px;
+  margin-left: 5px;
+}
+.p-input {
+  color: #757575;
+  margin-bottom: 0;
+}
+.border-svg {
+  display: flex;
+  align-items: center;
+border: 1px solid #21212160;
+border-radius: 5px;
+height: 40px;
+margin-top: 0;
+}
+.input-glas {
+  height: 30px;
+  width: 400px;
+  border: none;
+  outline: none;  
+   margin-left: 5px;
+}
+.border-svg:focus-within svg {
+   fill: #2196F3; 
+}
+.border-svg:focus-within {
+ border-color: #2196F3; 
+}
+.p-coment {
+   color: #757575;
+    margin-bottom: 0;
+}
+.input-coment {
+ width: 480px;
+  border: none;
+border-radius: 5px;
+  outline: none; 
+   padding: 10px;
+  
+
+}
+.input-coment:focus {
+   border-color:  #2196F3; 
+}
+.order-glas {
+  margin-top: 0;
+border: 1px solid #21212160;
+  height: 120px;
+  border-radius: 5px;
+}
+.order-glas:focus-within {
+   border-color:  #2196F3; 
+}
+.check-box  {
+ width: 20px;
+ height: 20px;
+
+    background-color: #2196F3;
+
+}
+.check-box:checked {
+  color: #ffffff;
+
+}
+
+.okey {
+ display: flex;
+ color: #21212185;
+ 
+   margin-top: 15px;
+}
+.text-check {
+  display: flex;
+  margin-left: 20px ;
+}
+.a-check {
+  position: relative;
+  top: 17px;
+  left: 10px;
+  color: #2196F3;
+  
+ 
+}
+.li-check {
+   list-style: none;
+   
+font-weight: bold;
+}
+.check {
+ 
+  height: 18px;
+  margin-top: 15px;
+  
+}
+.button-glas {
+  margin: 0 auto;
+   height: 50px;
+   width: 200px;
+   border-radius: 5px;
+   border: none;
+   font-size: 16px;
+   
+}
+.button-glas-div {
+  display: flex;
+  
+  height: 20px;
+}
+.input-futr {
+  background-color:#2F303A;
+  border: #757575 solid 1px;
+  border-radius: 5px;
+  width: 300px;
+  height: 50px;
+  outline: none;
+  color: #757575;
+}
+.input-div-footer {
+  
+  margin-top: 50px;
+}
+.button-svg {
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+.svg-button {
+  width: 24px;
+  height: 24px;
+margin-left: 5px;
+  fill: white;
+}
+.p-svg-button {
+  font-size: 16;
+  font-weight: bold;
+}
+
+
+
