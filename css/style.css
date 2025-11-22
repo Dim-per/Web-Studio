@@ -662,3 +662,42 @@ margin-left: 5px;
 .section-one-h3 {
    margin-left: 10px;
 }
+header {
+  
+  height: 90px;
+}
+.header-a {
+  position: relative;
+  height: 44px;
+}
+.header-a:hover:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+ background-color: #2196F3;
+}
+.thumb {
+  position: relative;
+  overflow: hidden;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background: rgba(33, 150, 243, 0.9);
+  color: white;
+  opacity: 0;
+  transform: translateY(100%);
+   transition: opacity 700ms ease, transform 700ms ease;
+}
+.section-one-div:hover .overlay {
+  opacity: 1;
+  transform: translateX(0);
+}
